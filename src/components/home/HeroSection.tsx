@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Play, Shield, Target, Zap } from "lucide-react";
 
@@ -33,10 +34,12 @@ export function HeroSection() {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16 animate-fade-in" style={{ animationDelay: "0.3s" }}>
-            <Button size="lg" className="gradient-primary hover:opacity-90 transition-opacity w-full sm:w-auto">
-              Start Free Trial
-              <ArrowRight className="w-4 h-4 ml-2" />
-            </Button>
+            <Link to="/dashboard">
+              <Button size="lg" className="gradient-primary hover:opacity-90 transition-opacity w-full sm:w-auto">
+                Start Free Trial
+                <ArrowRight className="w-4 h-4 ml-2" />
+              </Button>
+            </Link>
             <Button size="lg" variant="outline" className="w-full sm:w-auto">
               <Play className="w-4 h-4 mr-2" />
               Watch Demo
