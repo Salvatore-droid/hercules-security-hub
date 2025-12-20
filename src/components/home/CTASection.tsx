@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Shield, Users, Trophy } from "lucide-react";
 
@@ -22,13 +23,15 @@ export function CTASection() {
             </p>
 
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12">
-              <Button 
-                size="lg" 
-                className="bg-white text-primary hover:bg-white/90 w-full sm:w-auto"
-              >
-                Start Free Trial
-                <ArrowRight className="w-4 h-4 ml-2" />
-              </Button>
+              <Link to="/dashboard">
+                <Button 
+                  size="lg" 
+                  className="bg-white text-primary hover:bg-white/90 w-full sm:w-auto"
+                >
+                  Start Free Trial
+                  <ArrowRight className="w-4 h-4 ml-2" />
+                </Button>
+              </Link>
               <Button 
                 size="lg" 
                 variant="outline" 

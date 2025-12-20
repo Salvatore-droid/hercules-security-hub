@@ -40,12 +40,16 @@ export function Header() {
 
           {/* Desktop Actions */}
           <div className="hidden md:flex items-center gap-3">
-            <Button variant="ghost" size="sm">
-              Sign In
-            </Button>
-            <Button size="sm" className="gradient-primary hover:opacity-90 transition-opacity">
-              Get Started
-            </Button>
+            <Link to="/auth">
+              <Button variant="ghost" size="sm">
+                Sign In
+              </Button>
+            </Link>
+            <Link to="/dashboard">
+              <Button size="sm" className="gradient-primary hover:opacity-90 transition-opacity">
+                Get Started
+              </Button>
+            </Link>
           </div>
 
           {/* Mobile Menu Button */}
@@ -76,12 +80,16 @@ export function Header() {
                 </a>
               ))}
               <div className="flex flex-col gap-2 pt-4 border-t border-border">
-                <Button variant="ghost" size="sm">
-                  Sign In
-                </Button>
-                <Button size="sm" className="gradient-primary">
-                  Get Started
-                </Button>
+                <Link to="/auth">
+                  <Button variant="ghost" size="sm" className="w-full">
+                    Sign In
+                  </Button>
+                </Link>
+                <Link to="/dashboard">
+                  <Button size="sm" className="gradient-primary w-full">
+                    Get Started
+                  </Button>
+                </Link>
               </div>
             </nav>
           </div>
