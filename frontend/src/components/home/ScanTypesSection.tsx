@@ -14,7 +14,7 @@ export function ScanTypesSection() {
             </Badge>
             <h2 className="font-heading text-3xl md:text-4xl font-bold text-foreground mb-6">
               Two Powerful Ways to{" "}
-              <span className="text-gradient">Find Vulnerabilities</span>
+              <span className="text-primary">Find Vulnerabilities</span>
             </h2>
             <p className="text-lg text-muted-foreground mb-8">
               Whether you need a quick security check or deep business logic testing, 
@@ -76,7 +76,7 @@ export function ScanTypesSection() {
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4 mt-8">
-              <Button className="gradient-primary hover:opacity-90">
+              <Button className="primary-primary hover:opacity-90">
                 Try Quick Scan Free
                 <ArrowRight className="w-4 h-4 ml-2" />
               </Button>
@@ -89,17 +89,17 @@ export function ScanTypesSection() {
 
           {/* Visual */}
           <div className="relative">
-            <div className="aspect-square rounded-3xl bg-gradient-to-br from-primary/5 to-accent/5 border border-border p-8 flex items-center justify-center">
+            <div className="aspect-square rounded-3xl bg-primary-to-br from-primary/5 to-accent/5 border border-border p-8 flex items-center justify-center">
               <div className="w-full max-w-sm space-y-4">
                 {/* Mock Scan UI */}
                 <div className="p-4 rounded-xl bg-card border border-border shadow-soft">
                   <div className="flex items-center gap-3 mb-4">
-                    <div className="w-8 h-8 rounded-lg gradient-primary flex items-center justify-center">
+                    <div className="w-8 h-8 rounded-lg primary-primary flex items-center justify-center">
                       <Search className="w-4 h-4 text-primary-foreground" />
                     </div>
                     <div className="flex-1">
                       <div className="h-2 w-full bg-primary/20 rounded-full overflow-hidden">
-                        <div className="h-full w-3/4 gradient-primary rounded-full animate-pulse" />
+                        <div className="h-full w-3/4 primary-primary rounded-full animate-pulse" />
                       </div>
                     </div>
                     <span className="text-sm font-medium text-primary">75%</span>

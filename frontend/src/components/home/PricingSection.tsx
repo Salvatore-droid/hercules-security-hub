@@ -82,7 +82,7 @@ export function PricingSection() {
           </Badge>
           <h2 className="font-heading text-3xl md:text-4xl font-bold text-foreground mb-4">
             Simple, Transparent{" "}
-            <span className="text-gradient">Pricing</span>
+            <span className="text-pimary">Pricing</span>
           </h2>
           <p className="text-lg text-muted-foreground">
             Choose the plan that fits your security needs. 

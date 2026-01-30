@@ -68,7 +68,7 @@ export function FeaturesSection() {
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="font-heading text-3xl md:text-4xl font-bold text-foreground mb-4">
             Everything You Need for{" "}
-            <span className="text-gradient">Security Success</span>
+            <span className="text-primary">Security Success</span>
           </h2>
           <p className="text-lg text-muted-foreground">
             From reconnaissance to reporting, Hercules provides a complete toolkit 

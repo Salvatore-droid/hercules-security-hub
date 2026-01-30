@@ -22,7 +22,7 @@ export function HeroSection() {
           {/* Headline */}
           <h1 className="font-heading text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-6 animate-fade-in" style={{ animationDelay: "0.1s" }}>
             Find Vulnerabilities.{" "}
-            <span className="text-gradient">Get Rewarded.</span>{" "}
+            <span className="text-primary">Get Rewarded.</span>{" "}
             Stay Protected.
           </h1>
 
